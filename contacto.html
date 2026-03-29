@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer sitio web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Bienvenidos, Soy Daniela Luz Belén Camacho</h1>
+<p>Estoy estudiando la Tecnicatura en Analisis en Sistemas y Desarrollo en Software...</p>
+<img src="img/IMG_1072.jpeg" alt="Mi perfil">
+</header>
+
+<section id="Contacto">
+    <h2> Formulario de Contacto</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required minlength="3">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="tel">Telefono:</label>
+        <input type="tel" id="tel" name="tel" pattern="[0-9]{10} required">
+
+        <br><br>
+        <label for="motivo">Motivo:</label>
+        <select id="motivo" name="motivo">
+            <option value="">Seleccione</option>
+            <option value="consulta">Consulta</option>
+            <option value="soporte">Soporte</option>
+            <option value="otro">Otro</option>
+        </select>
+
+        <br><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required minlength="10"></textarea>
+
+        <br><br>
+
+        <label>
+            <input type="checkbox" required>
+            Acepto los términos y condiciones
+        </label>
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+<p>&copy; 2026 Daniela Luz Belén Camacho</p>
+
+<p>Seguime en mis redes:</p>
+   <a href="https://www.instagram.com/danii_camachoo?igsh=MXZqdmJzeW5ka2Y0eQ%3D%3D&utm_source=qr" target="_blank">
+   <img src="img/instagram.png" alt="Ir a instagram" alt="" style=
+   "width:50px; height:50px;"></a>
+   <a href="https://www.tiktok.com/@daniicamacho03?_r=1&_t=ZS-94ipn25yflR" target="_blank">
+   <img src="img/tiktok-circle.png" alt="Ir a Tiktok" alt="" style= "width: 50px; height: 50px;"></a>
+   <a href="https://www.tiktok.com/@daniicamacho03?_r=1&_t=ZS-94ipn25yflR" target="_blank"> 
+   <img src="img/facebook.png" alt="Ir a Facebook" alt="" style=" width: 50px; height: 50px;"></a>
+
+</footer>
