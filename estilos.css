@@ -13,7 +13,13 @@ width: 300px;
 margin: auto;
 border-radius: 10px;
 }
-
+input, textarea, select{
+    width: 90%;
+    padding: 8px;
+    margin: 8px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
 input:focus, textarea:focus{
 width: 90%;
 padding: 8px;

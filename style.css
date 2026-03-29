@@ -10,6 +10,7 @@ body{
    line-height:1.6;
    color:white;
    background: #d30163af;
+   margin: 0;
 }
 header{
    background: #b62b71be;
@@ -34,7 +35,7 @@ nav a:hover{
 main{
     max-width: 900px;
     margin: auto;
-    padding: 32px;
+    padding: 20px;
 }
 section{
     background: #b62b71be;
@@ -63,7 +64,19 @@ margin: auto;
 border-radius: 10px;
 }
 
-input, textarea{
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea, select{
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+input:focus, textarea:focus{
 width: 90%;
 padding: 8px;
 margin: 8px;
@@ -75,8 +88,13 @@ input:valid, textarea:valid{
 border-color: green;
 }
 
-input:invalid, textarea:invalid{
-border-color: red;
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(::placeholder-shown){
+    border-color: red;
+}
+
+a:focus, button:focus, input:focus, textarea:focus, select:focus {
+  outline: 3px solid blue;
 }
 
 button{
@@ -85,12 +103,19 @@ color: white;
 padding: 10px;
 border: none;
 border-radius: 5px;
+margin-top: 10px;
 cursor: pointer;
 }
+
+button:hover{
+    opacity: 0.8;
+}
+
 img{
     width: 200px;
     height: auto;
     margin: 10px;
+    max-width: 200px;
 }
 
 footer{
