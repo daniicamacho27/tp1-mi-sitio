@@ -247,7 +247,7 @@ img{
 
 footer{
   grid-area: footer;
-  background:#1f2937;
+  background:var(--color-text);
   color: white;
   text-align: center;
   padding: 20px;
