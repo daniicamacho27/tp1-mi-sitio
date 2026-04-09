@@ -5,84 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer sitio web</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="layout">
+  <header>
+    <div> 
+      <h1>Daniela Luz Belén Camacho</h1>
+      <p>Estoy estudiando la Tecnicatura en Analisis en Sistemas y Desarrollo en Software...</p>
+    </div>
+    <nav>   
+      <a href="#sobre-mi">Sobre mí</a> 
+      <a href="#gustos">Gustos</a> 
+      <a href="contacto.html">Contacto</a> 
+    </nav>
+    
+  </header>
+  <aside>
+    <nav>   
+      <h3> Menu:</h3>
+      <a href="#sobre-mi">Sobre mí</a> 
+      <a href="#gustos">Gustos</a> 
+      <a href="contacto.html">Contacto</a> 
+    </nav>
+  </aside>
+  <main>
+  <section id="sobre-mi"> 
+    <h2>Bienvenidos:</h2>
+      <p> En esta página voy a compartir un poco sobre mí: mis gustos, las cosas que me interesan y lo que estoy aprendiendo día a día. Es un espacio donde podrás conocer más sobre mi forma de ser, mis proyectos y todo lo que me apasiona. También voy a ir mostrando mi progreso y las habilidades que voy desarrollando con el tiempo. ¡Espero que te guste y disfrutes conocer un poco más sobre mí!</p>
+      <Img src="img/IMG_1072.jpeg" alt="Mi perfil">
+    </section>
+  <section id="gustos">
+    <h2>Las cosas que me gustan hacer:</h2>
 
-<header>
-<h1>Bienvenidos, Soy Daniela Luz Belén Camacho</h1>
-<p>Estoy estudiando la Tecnicatura en Analisis en Sistemas y Desarrollo en Software...</p>
-<img src="img/IMG_1072.jpeg" alt="Mi perfil">
-</header>
- <nav>
-    <a href="#Sobre mi">Sobre mi</a>
-    <a href="#Gustos">Gustos</a>
-    <a href="#Contacto">Contacto</a>
- </nav>   
- <main>
-<section id="Sobre mi">
-<h2>Un poco sobre mi</h2>
-<p> Estoy aprendiendo a realizar una pagina web y usar herramientas de programación.En esta seccion quiero compartirles mis intereses y gustos...</p>
+    <img src="img/perros.jpg" alt="Pasear perros">
+    <p>Salir a pasear con mi perrita es una de las cosas que más disfruto.</p>
 
-<ul>
-<li> Aprender HTML </li>
-<li>Aprender CSS</li>
-<li>Crear páginas web</li>
-<li>Salir a caminar</li>
-<li>Dormir y Ver series</li>
-<li>Hacer videos de tiktok</li>
-</ul>
+    <img src="img/tiktok.jpg" alt="Hacer tiktoks">
+    <p>Hacer TikTok es algo que disfruto porque puedo expresarme.</p>
+
+    <h3>Mi programa favorito:</h3>
+    <a href="https://youtu.be/BFK4hJF_E_4?si=V4-a4DMzT8WrIbpt">Gran Hermano</a>
+    <p>Ver Gran Hermano por todas las jugadas que hacen</p>
+  </section>
+  <div class="cards">
+
+    <div class="card">
+      <h3>Clases de Matemáticas</h3>
+      <p>Ofrezco clases de matemáticas para ayudar a entender mejor los temas, resolver ejercicios y mejorar el rendimiento académico de manera clara y sencilla.</p>
+    </div>
+
+    <div class="card">
+      <h3>Cocina</h3>
+      <p>Disfruto mucho cocinar y probar nuevas recetas. Es una actividad que me permite relajarme, ser creativa y compartir momentos con otras personas.</p>
+    </div>
+
+    <div class="card">
+      <h3>Desarrollo Web</h3>
+      <p>Estoy aprendiendo a crear páginas web utilizando HTML y CSS, enfocándome en estructuras ordenadas, diseño moderno y buenas prácticas.</p>
+    </div>
+
+  </div>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Daniela Luz Belén Camacho</h1>
+      <h2>Desarrolladora Web Junior</h2>
+      <p>Estoy en proceso de aprendizaje en el desarrollo web, creando páginas modernas y funcionales utilizando HTML y CSS. Me interesa mejorar constantemente, incorporando buenas prácticas de diseño y estructura para lograr sitios atractivos, claros y cada vez más profesionales...</p>
+
+      <a href="#contacto" class="btn">Contactarme</a>
+    </div>
+    <img src="img/desarrollador web.jpg" alt="Ilustración programación" class="hero-img">
+  </section>
+
+  <section class="grid-section">
+  <h2>Proyectos</h2>
+
+  <div class="grid-container">
+    
+    <div class="card">
+      <div class="icon"></div>
+      <h3>Desarrollo Web</h3>
+      <p>Creación de páginas web utilizando HTML y CSS.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon"></div>
+      <h3>Diseño UI</h3>
+      <p>Diseño de interfaces modernas, atractivas y fáciles de usar.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon"></div>
+      <h3>Lógica de Programación</h3>
+      <p>Resolución de problemas y desarrollo de pensamiento lógico.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon"></div>
+      <h3>Aprendizaje continuo</h3>
+      <p>Me mantengo en constante aprendizaje de nuevas tecnologías.</p>
+    </div>
+
+  </div>
 </section>
+  <section>
+    <h2>Mi momento</h2>
+    <p>Mi canción más personal en este momento...</p>
 
-<section id="Gustos">
-<h2>Las cosas que me gustan  hacer:</h2>
-<img src="img/perros.jpg" alt="Pasear perros">
-<p>Salir a pasear con mi perrita es una de las cosaas que más disfruto. Me gusta verla correr mientras pasamos el tiempo juntas.</p>
-<img src="img/tiktok.jpg" alt="Hacer tiktoks">
-<p>Hacer Tiktok es algo que disfruto porque puedo expresarme, grabar videos entretenidos y compartirlos con otras personas.</p>
-<H3> Mi programa favorito:</H3>
-<a href="https://youtu.be/BFK4hJF_E_4?si=V4-a4DMzT8WrIbpt">Gran hermano</a>
-<p>Ver gran hermano por todas las jugadas que hacen</p>
-</section>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/g2dmgwiU3bs" frameborder="0" allowfullscreen></iframe>
+  </section>
+  </main>
 
-<section>
-    <h1>Mi momento</h1>
-
-<h2>Mi canción mas personal en este momento...</h2>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g2dmgwiU3bs" title="Eres todo para mi" frameborder="0" allowfullscreen> </iframe>
-
-</section>
-
-</main>
-<section id="Contacto">
-    <h2> Formulario de Contacto</h2>
-    <form>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="tel">Telefono:</label>
-        <input type="number" name="tel" required>
-        <label for="mensaje">Mensaje:</label>
-        <input type="text"placeholder="Escribe tu mensaje" required>
-        <button type="submit">Enviar</button>
-    </form>
-</section>
-<footer>
-<p>&copy; 2026 Daniela Luz Belén Camacho</p>
-
-<p>Seguime en mis redes:</p>
-   <a href="https://www.instagram.com/danii_camachoo?igsh=MXZqdmJzeW5ka2Y0eQ%3D%3D&utm_source=qr" target="_blank">
-   <img src="img/instagram.png" alt="Ir a instagram" alt="" style=
-   "width:50px; height:50px;"></a>
-   <a href="https://www.tiktok.com/@daniicamacho03?_r=1&_t=ZS-94ipn25yflR" target="_blank">
-   <img src="img/tiktok-circle.png" alt="Ir a Tiktok" alt="" style= "width: 50px; height: 50px;"></a>
-   <a href="https://www.tiktok.com/@daniicamacho03?_r=1&_t=ZS-94ipn25yflR">Facebook</a>
-   <img src="img/"
-
-</footer>
-
+  <footer>
+    <p>&copy; 2026 Daniela Luz Belén Camacho</p>
+    <p>Seguime en mis redes:</p>
+    <a href="https://www.instagram.com/danii_camachoo" target="_blank">
+      <img src="img/instagram.png" alt="Instagram" style="width:50px;"> </a>
+    <a href="https://www.tiktok.com/" target="_blank">
+      <img src="img/tiktok-circle.png" alt="TikTok" style="width:50px;"> </a>
+    <a href="https://www.facebook.com/share/1KSxZsk4sj/?mibextid=wwXIfr" target="_blank">
+      <img src="img/facebook.png" alt="Facebook" style="width:50px;"> </a>
+  </footer>
+</div>
 </body>
 </html>
-
-
