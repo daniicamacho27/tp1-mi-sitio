@@ -17,15 +17,15 @@ Grid
 Responsive
 
 ##  Sitio en vivo
-http://127.0.0.1:5500/index.html
+https://daniicamacho27.github.io/tp1-mi-sitio/
 
 ## Capturas
 ###  Mobile (393px)
-![Mobile](img/iphone393.png)
+![Mobile](img/iphone%20393.png)
 ###  Tablet (820px)
 ![Tablet](img/ipad%20820.png)
 ### 💻 Desktop (1024px)
-![Desktop](img/lapto%201024.png)
+![Desktop](img/laptop%201024.png)
 
 ##  Reflexión
 Aprender a usar la terminal es importante porque permite trabajar de forma más rápida y eficiente. Muchas herramientas de programación funcionan directamente desde la terminal y facilitan la automatización de tareas. Además, ayuda a comprender mejor cómo funciona el sistema operativo.  
