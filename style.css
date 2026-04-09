@@ -275,7 +275,7 @@ footer a:hover{
       "footer footer";
     min-height: 100vh;
   }
-
+}
   aside {
     display: block;
   }
@@ -289,12 +289,37 @@ footer a:hover{
 @media (min-width: 1024px) {
 
   .layout {
+    display: grid;
+    grid-template-columns: 260px 1fr 260px;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header header header"
+      "sidebar main aside"
+      "footer footer footer";
+    min-height: 100vh;
     max-width: 1200px;
     margin: 0 auto;
+    gap: 20px;
   }
 
-  .grid-container {
-    grid-template-columns: repeat(3, 1fr);
+  .header {
+    grid-area: header;
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+  }
+
+  .main {
+    grid-area: main;
+  }
+
+  .aside {
+    grid-area: aside;
+  }
+
+  .footer {
+    grid-area: footer;
   }
 }
 @media (min-width: 1440px) {
