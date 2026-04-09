@@ -134,7 +134,7 @@ h3{
 }
 .card{
   flex: 1 1 280px;
-  background: white;
+  background: var(--color-accent);
   padding: 20px;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -142,7 +142,7 @@ h3{
 }
 .card:hover{
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  box-shadow: var(--shadow);
 }
 .card h3{
   margin-bottom: 10px;
@@ -414,7 +414,7 @@ footer a:hover{
 }
 
 .grid-container .card {
-  background: var(--color-primary);
+  background: var(--color-secondary);
   padding: 20px;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
