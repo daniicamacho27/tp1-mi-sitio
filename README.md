@@ -17,14 +17,13 @@ Grid
 Responsive
 
 ##  Sitio en vivo
-
+http://127.0.0.1:5500/index.html
 
 ## Capturas
 ###  Mobile (393px)
 ![Mobile](img/iphone393.png)
 ###  Tablet (820px)
 ![Tablet](img/ipad%20820.png)
-
 ### 💻 Desktop (1024px)
 ![Desktop](img/lapto%201024.png)
 
