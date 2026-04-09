@@ -107,7 +107,7 @@ main{
   padding: 20px;
 }
 section{
-  background: white;
+  background: var(--color-bg-form);
   margin-bottom: 20px;
   padding: 20px;
   border-radius: var(--radius);
