@@ -301,9 +301,41 @@ footer a:hover{
     margin: 0 auto;
     gap: 20px;
   }
+  .header {
+    grid-area: header;
+  }
+  .sidebar {
+    grid-area: sidebar;
+  }
+  .main {
+    grid-area: main;
+  }
+  .aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+}
+@media (max-width: 393px) {
+
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto auto;
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "main"
+      "aside"
+      "footer";
+    min-height: 100vh;
+    gap: 10px;
+  }
 
   .header {
     grid-area: header;
+    text-align: center;
   }
 
   .sidebar {
@@ -320,17 +352,45 @@ footer a:hover{
 
   .footer {
     grid-area: footer;
+    text-align: center;
   }
 }
-@media (min-width: 1440px) {
+@media (max-width: 393px) {
 
   .layout {
-    max-width: 1400px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto auto;
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "main"
+      "aside"
+      "footer";
+    min-height: 100vh;
+    gap: 10px;
   }
 
-  .grid-container {
-    grid-template-columns: repeat(4, 1fr);
+  .header {
+    grid-area: header;
+    text-align: center;
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+  }
+
+  .main {
+    grid-area: main;
+  }
+
+  .aside {
+    grid-area: aside;
+  }
+
+  .footer {
+    grid-area: footer;
+    text-align: center;
   }
 }
   aside nav{
