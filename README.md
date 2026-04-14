@@ -20,11 +20,11 @@ Responsive
 https://daniicamacho27.github.io/tp1-mi-sitio/
 
 ## Capturas
-###  Mobile (393px)
+###  Iphone (393px)
 ![Mobile](img/iphone%20393.png)
-###  Tablet (820px)
+###  Ipad (820px)
 ![Tablet](img/ipad%20820.png)
-### 💻 Desktop (1024px)
+### 💻 Laptop (1024px)
 ![Desktop](img/laptop%201024.png)
 
 ##  Reflexión
